@@ -3,6 +3,7 @@ libfreetype6
 libglib2.0-0
 libglib2.0-dev
 libgstreamer1.0-0
+ibgl1-mesa-glx
 gstreamer1.0-plugins-base
 gstreamer1.0-tools
 libjpeg62-turbo-dev

@@ -63,7 +63,7 @@ MarkupSafe==2.1.5
 marshmallow==3.21.3
 matplotlib==3.9.0
 mdurl==0.1.2
-mediapipe==0.10.14
+mediapipe
 ml-dtypes==0.3.2
 multidict==6.0.5
 mypy-extensions==1.0.0
@@ -112,7 +112,7 @@ sniffio==1.3.1
 sounddevice==0.4.6
 SpeechRecognition==3.10.4
 SQLAlchemy==2.0.30
-streamlit==1.35.0
+streamlit
 tenacity==8.3.0
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
