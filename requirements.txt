@@ -71,8 +71,7 @@ namex==0.0.8
 numpy==1.23.5
 oauthlib==3.2.2
 openai==0.27.4
-opencv-contrib-python==4.9.0.80
-opencv-python==4.9.0.80
+opencv-contrib-python==4.9.0.80 --force-reinstall
 opt-einsum==3.3.0
 optree==0.11.0
 optuna==3.6.1
