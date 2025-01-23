@@ -45,16 +45,16 @@ def main():
         tfflie = tempfile.NamedTemporaryFile(delete=False)
 
         # if no video uploaded then use a demo
-        # if not video_file_buffer:
-        #     DEMO_VIDEO = 'demo_2.mp4'
-        #     cap = cv2.VideoCapture(DEMO_VIDEO)
-        #     tfflie.name = DEMO_VIDEO
+        if not video_file_buffer:
+            DEMO_VIDEO = 'demo_2.mp4'
+            cap = cv2.VideoCapture(DEMO_VIDEO)
+            tfflie.name = DEMO_VIDEO
 
         # if video is uploaded then analyze the video
-        # else:
-        #     tfflie.write(video_file_buffer.read())
-        #     cap = cv2.VideoCapture(tfflie.name)
-        # st.markdown('-------')
+        else:
+            tfflie.write(video_file_buffer.read())
+            cap = cv2.VideoCapture(tfflie.name)
+        st.markdown('-------')
 
         # Visualize Video before analysis
         st.sidebar.text('Input Video')
