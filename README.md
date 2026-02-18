@@ -2,7 +2,7 @@
 
 This project is an AI-powered application that leverages Computer Vision, Pose Estimation, and Machine Learning to accurately track exercise repetitions during workouts. The goal is to enhance fitness routines by providing real-time tracking through an easy-to-use web interface.
 
-Datasets available at "https://www.kaggle.com/datasets/riccardoriccio/real-time-exercise-recognition-dataset".
+Datasets available at "https://www.kaggle.com/datasets/riccardoriccio/real-time-exercise-recognition-dataset" (Kaggle) or "https://huggingface.co/datasets/RickyRiccio/Real_Time_Exercise_Recognition_Dataset" (Hugging Face).
 
 This project is based on the paper: "Real-Time Fitness Exercise Classification and Counting from Video Frames"
 
