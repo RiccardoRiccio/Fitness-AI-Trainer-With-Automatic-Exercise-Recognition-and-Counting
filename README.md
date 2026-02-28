@@ -132,3 +132,11 @@ The chatbot feature utilizes OpenAI's GPT-3.5-turbo model to answer fitness-rela
 - **Machine Learning**: LSTM and BiLSTM models for real-time exercise classification.
 - **Streamlit**: Provides the web interface for user interaction.
 - **Python Libraries**: Includes OpenCV, MediaPipe, Streamlit, and others for backend processing.
+
+## Cite
+@article{riccio2024real,
+  title={Real-time fitness exercise classification and counting from video frames},
+  author={Riccio, Riccardo},
+  journal={arXiv preprint arXiv:2411.11548},
+  year={2024}
+}
